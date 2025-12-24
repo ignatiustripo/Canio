@@ -20,23 +20,7 @@
   
   <div id="copyStatus" style="color: green; margin-top: 10px;"></div>
   
-  <script>
-  function copyAllToClipboard() {
-    const content = document.querySelector('article').innerText;
-    navigator.clipboard.writeText(content).then(() => {
-      document.getElementById('copyStatus').textContent = '✅ All content copied to clipboard!';
-      setTimeout(() => {
-        document.getElementById('copyStatus').textContent = '';
-      }, 3000);
-    }).catch(err => {
-      console.error('Failed to copy: ', err);
-      document.getElementById('copyStatus').textContent = '❌ Failed to copy content';
-    });
-  }
-  </script>
   
-  A feature-rich, modular WhatsApp bot with 22+ features, AI integration, and beautiful menu system.
-</div>
 
 ## 📋 **Table of Contents**
 - [✨ Features](#-features)
