@@ -9,10 +9,10 @@
   
   ## 🎯 **One-Click Deployment**
   
-  [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/cannoh-md-bot)
-  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/yourusername/cannoh-md-bot)
-  [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/yourusername/cannoh-md-bot)
-  [![Run on Replit](https://replit.com/badge/github/yourusername/cannoh-md-bot)](https://replit.com/github/yourusername/cannoh-md-bot)
+  [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ignatiustripo/cannoh-md-bot)
+  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/ignatiustripo/cannoh-md-bot)
+  [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ignatiustripo/cannoh-md-bot)
+  [![Run on Replit](https://replit.com/badge/github/ignatiustripo/cannoh-md-bot)](https://replit.com/github/ignatiustripo/cannoh-md-bot)
   
   <button onclick="copyAllToClipboard()" style="padding: 10px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; margin: 10px;">
     📋 Copy All README Content
