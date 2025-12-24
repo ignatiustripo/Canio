@@ -1,0 +1,32 @@
+{
+  "features": {
+    "autoViewStatus": true,
+    "antiDelete": true,
+    "downloadMedia": true,
+    "viewOnceDownload": true,
+    "fakeRecording": true,
+    "alwaysOnline": true,
+    "fakeTyping": true,
+    "autoLikeStatus": true,
+    "aiFeatures": true,
+    "chatGPT": true,
+    "statusDownloader": true,
+    "antiCall": true,
+    "smartChatbot": true,
+    "autoBioUpdate": true,
+    "autoReact": true,
+    "autoRead": true,
+    "autoSaveContacts": true,
+    "antiBan": true,
+    "banSafeMode": true,
+    "prefixCustomization": true,
+    "modeSwitch": true,
+    "typingDetection": true,
+    "typingNotification": true,
+    "typingAnalytics": true
+  },
+  "mode": "public",
+  "prefix": "!",
+  "approvedUsers": [],
+  "userPrefixes": []
+}
