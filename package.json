@@ -87,10 +87,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/Ignatiusperez/Perez.git" 
+     "url": "git+https://github.com/ignatiustripo/Canio.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/Ignatiusperez/Perez/issues" 
+     "url": "https://github.com/ignatiustripo/Canio/issues" 
    }, 
-   "homepage": "https://github.com/Ignatiusperez/Perez#readme" 
+   "homepage": "https://github.com/ignatiustripo/Canio#readme" 
 }
