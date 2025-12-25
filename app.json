@@ -1,50 +1,69 @@
 {
-  "name": "Cannoh-MD-Bot",
-  "description": "A WhatsApp multi-device bot built with Baileys library",
-  "repository": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME",
-  "logo": "https://raw.githubusercontent.com/whiskeysockets/Baileys/main/docs/logo.png",
-  "keywords": ["whatsapp-bot", "baileys", "multi-device", "nodejs", "bot"],
+  "name": "𝐏𝐄𝐑𝐄𝐙-𝐌𝐃",
+  "description": "master perez",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "dreaded",
+    "whatsapp-stickers",
+    "anime",
+    "whatsapp-bot",
+    "whatsapp-sticker-bot",
+    "whatsapp-botto",
+    "baileys",
+    "baileys-md",
+    "md-bot"
+  ],
+  "website": "https://github.com/Ignatiusperez/Perez#readme",
+  "repository": "https://github.com/Ignatiusperez/Perez/",
+  "logo": "https://files.catbox.moe/0uzc42.jpg",
+  "success_url": "/",
+  "env": {
+    "DEV": {
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114520835,27748379216  ",
+      "required": true
+    },
+    "BAD_WORD": {
+      "description": "List words separated witj commas that will be considered as bad and will trigger bot to kick. Example: fuck, pussy, hoe",
+      "value": "fuck,pussy,slut,bitch,cock,stupid",
+      "required": false
+    },
+
+ "APP_NAME": {
+      "description": "Input your app name that you put above, must be in small letters.",
+      "required": true
+},
+  "SESSION": {
+      "description": "Paste your session_id you received after linking here , it's used for authentication, A must!!",
+      "required": true
+    },
+ 
+ "MENU_TYPE": {
+      "description": "Input either VIDEO, LINK or IMAGE. This will allow bot to display different dynamic menu types",
+   "value": "VIDEO",
+      "required": false 
+    },
+    "HEROKU_API": {
+      "description": "Put your heroku api key here. This will allow you to change vars and update your bot automatically without redeploying again.",
+      "required": false
+    },
+    "DATABASE_URL": {
+      "description": "PostgreSQL connection string, it will be automatically added by Heroku Postgres add-on, leave it blank",
+      "required": false
+        }
+  },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     }
   ],
-  "env": {
-    "SESSION_ID": {
-      "description": "Session identifier for your bot",
-      "value": "cannoh-md",
-      "required": false
-    },
-    "PREFIX": {
-      "description": "Bot command prefix (usually . or !)",
-      "value": ".",
-      "required": false
-    },
-    "MODS": {
-      "description": "Bot moderators (comma-separated WhatsApp numbers with country code)",
-      "value": "254781346242",
-      "required": false
-    },
-    "MONGODB_URI": {
-      "description": "MongoDB connection string for database",
-      "value": "mongodb+srv://username:password@cluster.mongodb.net/dbname",
-      "required": false
-    },
-    "OWNER_NUMBER": {
-      "description": "Bot owner's WhatsApp number with country code",
-      "value": "919876543210",
-      "required": true
-    },
-    "OPENAI_API_KEY": {
-      "description": "OpenAI API key for AI features (optional)",
-      "value": "",
-      "required": false
+    "addons": [
+    "heroku-postgresql"
+    ]
     }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
-}
