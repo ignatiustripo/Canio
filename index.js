@@ -29,7 +29,13 @@ const currentTime = Date.now();
 const packname = process.env.STICKER_PACKNAME;
 const _ = require("lodash");
 const PhoneNumber = require("awesome-phonenumber");
-const { initializeDatabase } = require('./database/config');
+const config = {
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
+  database: process.env.DB_NAME,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD
+};
 const fetchSettings = require('./database/fetchSettings');
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dreadexif'); 
 const { isUrl, smsg, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dreadfunc');
